@@ -6,8 +6,8 @@ from __future__ import absolute_import, division, print_function, \
     with_statement
 
 from flask import Flask
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.redis import Redis
+from flask_sqlalchemy import SQLAlchemy
+from flask_redis import FlaskRedis as Redis
 from flask.ext.login import LoginManager
 from flask.ext.mail import Mail
 
